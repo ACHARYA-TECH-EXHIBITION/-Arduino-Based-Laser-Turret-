@@ -15,7 +15,7 @@ void loop()
 {
  digitalWrite(13,1);
  
- delay(20);                    
+ delay(20);                  
  
  int XVal = analogRead(A1) ;  
  myservo.write((XVal/7.7));
